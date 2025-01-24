@@ -1,12 +1,3 @@
-// import { Router } from "express";
-
-// const cartsRouter = Router();
-// cartsRouter.get("/", (resq, res) => {
-//     res.send("Carts")
-// })
-
-// export default cartsRouter
-
 import { Router } from "express";
 import CartManager from "../clases/CartManager.js";
 

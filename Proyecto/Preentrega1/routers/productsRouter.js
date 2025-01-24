@@ -1,22 +1,3 @@
-// import { Router } from "express";
-// import ProductManager from "../clases/ProductManager.js";
-
-// const productsRouter = Router();
-// const PM = new ProductManager();
-
-// productsRouter.get("/", (resq, res) => {
-//     let products = PM.getProducts();
-//     res.send(products)
-// })
-
-// productsRouter.get("/:pid", (resq, res) => {
-//     let pid = resq.params.pid;
-//     let product = PM.getProductsById(pid);
-//     res.send(product)
-// })
-
-// export default productsRouter
-
 import { Router } from "express";
 import ProductManager from "../clases/ProductManager.js";
 
